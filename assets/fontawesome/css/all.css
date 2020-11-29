@@ -1683,9 +1683,14 @@ readers do not read off random characters that represent icons */
 .fa-folder-plus:before {
   content: "\f65e"; }
 
+/* .fa-font:before {
+  content: "\f031"; } */
 .fa-font:before {
-  content: "\f031"; }
-
+  font-family: roboto;
+  color: #429bf4;
+  font-size: 1.2em;
+  content: "K";  
+}
 .fa-font-awesome:before {
   content: "\f2b4"; }
 
